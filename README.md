@@ -1,8 +1,8 @@
 # exemplo implementação docker
 
-Primeiros passos com **docker** e **python**
+Primeiros passos com **docker**, **python**, **tensorflow**, **GPU(NVIDIA)**, 
 
-## Execução
+## Passos para compilação e execução
 
 ### Compilação do projeto
 
