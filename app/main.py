@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
   model.evaluate(X_test, y_test)
 
-  model.save('model.h5')
+  model.save('trained_model.h5')
 
 
 

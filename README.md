@@ -7,11 +7,11 @@ Primeiros passos com **docker**, **python**, **tensorflow**, **GPU(NVIDIA)**,
 ### Compilação do projeto
 
  ```
-docker image build -t img_app .
+docker image build -t img_app_ebeer .
 ```
 
 ### Execução do projeto
 
  ```
-docker run --gpus all img_app
+docker run --name container_app_ebeer --gpus all img_app_ebeer
 ```
