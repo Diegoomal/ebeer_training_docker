@@ -56,14 +56,15 @@ def zoom(image):
 
 
 transformations = {
-    # 'rotation_anti_horaria': rotation_anti_clockwise,
-    # 'rotation_horaria': rotation_clockwise,
-    # 'horizontal_flip': h_flip,
-    # 'vertical_flip': v_flip,
-    # 'brightness': brightness,
-    # 'blur_img': blur_img,
-    # 'noise': noise_img,
-    # 'zoom': zoom
+    'rotation_anti_horaria': rotation_anti_clockwise,
+    'rotation_horaria': rotation_clockwise,
+    'horizontal_flip': h_flip,
+    'vertical_flip': v_flip,
+    'noise': noise_img,
+
+    'brightness': brightness,
+    'blur_img': blur_img,
+    'zoom': zoom
 }
 
 
